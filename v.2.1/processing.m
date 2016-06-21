@@ -332,3 +332,8 @@ function initialCodeButton_Callback(hObject, eventdata, handles)
 % hObject    handle to initialCodeButton (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
+fig = handles.figure1;
+handles
+initialCode(fig);
+guidata(hObject, handles);
+
